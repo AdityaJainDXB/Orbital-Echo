@@ -1,0 +1,20 @@
+import "./style.css";
+import {initTheme} from "./modules/theme.js";
+import {initClock} from "./modules/clock.js";
+import {initSearch} from "./modules/search.js";
+import {initShortcuts} from "./modules/shortcuts.js";
+import {initTodo} from "./modules/todo.js";
+import {initCommandPalette} from "./modules/commandPalette.js";
+import {initApodBackground} from "./modules/apod.js";
+import {initSpaceWeather} from "./modules/spaceWeather.js";
+import {initIss} from "./modules/iss.js";
+
+initTheme();
+initClock();
+initSearch();
+initShortcuts();
+initTodo();
+initCommandPalette();
+initApodBackground();
+initSpaceWeather();
+initIss();

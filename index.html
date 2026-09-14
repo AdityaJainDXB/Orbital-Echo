@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="nebula">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛰️</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Orbital Echo</title>
+  </head>
+  <body>
+    <div id="background-layer">
+      <img id="apod-bg" alt="" />
+      <div id="bg-overlay"></div>
+    </div>
+
+    <div id="app">
+      <header class="topbar">
+        <div id="clock"></div>
+        <button id="palette-trigger" class="pill-btn">⌘K &nbsp;Search anything</button>
+        <button id="theme-trigger" class="icon-btn" aria-label="Change theme">⚙</button>
+      </header>
+
+      <main class="hero">
+        <h1 id="greeting"></h1>
+        <form id="search-form" class="search-bar">
+          <select id="engine-select" aria-label="Search engine">
+            <option value="google">Google</option>
+            <option value="duckduckgo">DuckDuckGo</option>
+            <option value="bing">Bing</option>
+          </select>
+          <input id="search-input" type="text" placeholder="Search the web..." autocomplete="off" />
+          <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <div id="shortcuts" class="shortcuts"></div>
+      </main>
+
+      <section class="widget-rail">
+        <article class="widget">
+          <h2>Space weather</h2>
+          <div class="widget-body" id="spaceweather-body">Loading...</div>
+        </article>
+
+        <article class="widget">
+          <h2>ISS next pass</h2>
+          <div class="widget-body" id="iss-body">Loading...</div>
+        </article>
+
+        <article class="widget">
+          <h2>Mission Log</h2>
+          <form id="todo-form" class="todo-form">
+            <input id="todo-input" type="text" placeholder="Add a new task..." autocomplete="off" />
+            <button type="submit" aria-label="Add task">➕</button>
+          </form>
+          <ul id="todo-list" class="todo-list"></ul>
+        </article>
+      </section>
+
+      <footer id="apod-credit" class="apod-credit"></footer>
+    </div>
+
+    <div id="command-palette" class="command-palette hidden">
+      <div class="command-palette-box">
+        <input id="command-input" type="text" placeholder="Type a command or search..." autocomplete="off" />
+        <ul id="command-results"></ul>
+      </div>
+    </div>
+
+    <div id="theme-menu" class="theme-menu hidden">
+      <button data-theme="nebula">Nebula</button>
+      <button data-theme="solar">Solar Flare</button>
+      <button data-theme="deepspace">Deep Space</button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
