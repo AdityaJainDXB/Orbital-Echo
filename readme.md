@@ -1,6 +1,6 @@
 # 🛰️ Orbital Echo
 
-A custom browser new tab page built for the NASA x Hack Club Stardance Challenge. Instead of a blank tab or a generic dashboard, Orbital Echo turns every new tab into a live mission briefing — pulling real NASA data into a fast, distraction-free workspace.
+A custom browser new tab page with live NASA Backgrounds, astronomy information as well as a Windows XP style look . Instead of a blank tab or a generic dashboard, Orbital Echo turns every new tab into a live mission briefing , pulling live NASA data into a fast, distraction-free workspace.
 
 **Live site:** https://adityajaindxb.github.io/Orbital-Echo/
 
@@ -9,15 +9,15 @@ A custom browser new tab page built for the NASA x Hack Club Stardance Challenge
 
 ## What it does
 
-- **Live NASA background** — Astronomy Picture of the Day (APOD) as the wallpaper, refreshed daily, with full credit/attribution
-- **Space weather** — real-time solar flare and geomagnetic storm data from NASA's DONKI API
+- **Live NASA background** — Astronomy Picture of the Day (APOD) as the wallpaper, refreshed daily based on APOD, with full credit/attribution
+- **Space weather** — real-time solar flare and geomagnetic storm data from NASA's  Free DONKI API
 - **ISS next pass** — calculates the next visible ISS pass over your location using live orbital data
 -  **Multi-engine search** — quick switch between Google, DuckDuckGo, and Bing
--  **Custom shortcuts** — add, remove, and drag-to-reorder your own quick links
--  **Mission log (todo list)** — lightweight task tracker, persisted locally
+-  **Customizable shortcuts** — add, remove, and drag-to-reorder your own quick links
+-  **Mission log (todo list)** — lightweight task tracker/to-do list, persisted locally
 - ⌘K **Command palette** — keyboard-driven quick actions (open shortcuts, search, switch themes, export settings)
 -  **Theming** — Nebula / Solar Flare / Deep Space color palettes
--  **Local persistence** — everything (shortcuts, tasks, theme, settings) saved via `localStorage`, with JSON export
+-  **Local persistence** — everything (shortcuts, tasks, theme, settings) saved via `localStorage`, with JSON export function to save settings and come back the next day!
 
 ---
 
