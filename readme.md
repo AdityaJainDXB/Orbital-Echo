@@ -2,7 +2,7 @@
 
 A custom browser new tab page built for the NASA x Hack Club Stardance Challenge. Instead of a blank tab or a generic dashboard, Orbital Echo turns every new tab into a live mission briefing — pulling real NASA data into a fast, distraction-free workspace.
 
-**Live site:** [link once deployed]
+**Live site:** https://adityajaindxb.github.io/Orbital-Echo/
 
 
 ---
