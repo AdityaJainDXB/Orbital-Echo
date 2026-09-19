@@ -26,7 +26,7 @@ What it does
 
 How it was built
 
-This started as a fairly standard AI-assisted build - I worked through the layout, the NASA API integrations, and the initial styling with a lot of back-and-forth debugging (turns out hand-typing a whole codebase produces an impressive number of typos - getShortcut vs getShortcuts, a misspelled <forrm> tag, classname instead of className, that kind of thing. Chasing those down through the browser console was honestly most of the actual work).
+This started as a fairly standard AI-**assisted** build - I worked through the layout, the NASA API integrations, and the initial styling with a lot of back-and-forth debugging (turns out hand-typing a whole codebase produces an impressive number of typos - getShortcut vs getShortcuts, a misspelled <forrm> tag, classname instead of className, that kind of thing. Chasing those down through the browser console was honestly most of the actual work).
 
 Once the functionality was solid, I got feedback that the visual design read as too obviously AI-generated - the glassmorphism, dark-navy-and-gold palette, everything blurred and floating, is a very recognizable default look at this point. So I scrapped that entirely and rebuilt the UI myself around a Windows XP-era aesthetic: real beveled buttons, hard drop shadows instead of blur, opaque title-bar widgets, and shortcuts styled as actual desktop icons rather than glass pills. No blur anywhere in the current version - that was a deliberate reaction to how generic the first pass looked.
 
